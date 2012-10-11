@@ -1,0 +1,15 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//Mac OS X 10.8.2//EN
+N:Schmoe;Joseph;;;
+FN:Joseph Schmoe
+NICKNAME:Joe
+ORG:Acme\, Inc.;Desk Jobs
+TITLE:Pencil Pusher
+EMAIL;type=INTERNET;type=HOME;type=pref:joe.schmoe@example.com
+TEL;type=CELL;type=VOICE;type=pref:000-555-1234
+item1.IMPP;X-SERVICE-TYPE=GoogleTalk;type=pref:xmpp:iHopeThisIsntARealIM@gmail.com
+item1.X-ABLabel:Gtalk
+UID:191a98b6-7a14-430e-9316-748b638f530e
+X-ABUID:F37A32FF-5694-45DC-9E7A-B859C6F6E7F5:ABPerson
+END:VCARD

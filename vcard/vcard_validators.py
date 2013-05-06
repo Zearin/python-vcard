@@ -134,13 +134,13 @@ class VCardFormatError(Exception):
         message = _stringify(self.message)
 
         # Sort context information
-        keys = [
+        keys = (
             'File',
             'File line',
             'vCard line',
             'Property',
             'Property line',
-            'String']
+            'String')
         for key in keys:
             if key in self.context:
                 message += '\n{0}: {1}'.format(

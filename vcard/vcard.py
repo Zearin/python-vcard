@@ -337,8 +337,7 @@ def get_vcard_properties(lines):
                     error.context)
 
     for mandatory_property in MANDATORY_PROPERTIES:
-        if mandatory_property not in [
-            prop['name'].upper() for prop in properties]:
+        if mandatory_property not in set(prop['name'].upper() for prop in properties):
             raise vcard_validators.VCardFormatError(
                 '{0}: {1}'.format(MSG_MISSING_PROPERTY, mandatory_property),
                 {'Property': mandatory_property})
